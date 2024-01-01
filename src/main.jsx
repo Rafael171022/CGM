@@ -10,6 +10,7 @@ import Cartoes_details from './pages/details/Cartoes-details.jsx'
 import Saldo_details from './pages/details/Saldo-details.jsx'
 import Crediarios_details from './pages/details/Crediarios-details.jsx'
 import Cartoes from './pages/Cartoes.jsx'
+import Crediarios from './pages/Crediarios.jsx'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path:"/Cartoes",
     element:<Cartoes/>,
+  },
+  {
+    path:"/Crediarios",
+    element:<Crediarios/>,
   },
 ]);
 
